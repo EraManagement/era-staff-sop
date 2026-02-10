@@ -1,0 +1,148 @@
+===============================
+BLOCK COMMANDS (Place a block and grab it while saying :h)
+===============================
+- Grab blocks using player chat commands
+    :block - switch current level to staff only (on/off)
+    :db - removes the block
+    :dmb - destroys all of your blocks in the vicinity
+    :fl <level> - sends '/find <level>' command to RC
+    :ga <gani> - sets block to the specified gani
+    :gs - a list of grabbed-by stats on this block
+    :h - pm's you a list of these commands
+    :i <image> - updates your block to specified image
+    :image - sends you the block's image name
+    :l - sends level name to 'Other' tab in RC
+    :moo - disco light effect on block
+    :msg <player> - send a PM to the specified player
+    :sendtonc - send an echo/message to NC
+    :so - makes block only visible to staff
+    :tp - the time this block was placed
+
+===============================
+RC COMMANDS
+===============================
+- /find *era_hat-* (Broad search, will pull up every files with this pattern)
+- /scriptscan scripts Test (Will search every NPCs, Classes and Weapons all at once for the keyword you use replaced by Test)
+To narrow your search, replace scripts with NPC, WEAPON, or CLASS in the command.
+
+
+===============================
+Chat Commands (:)  what they do
+===============================
+
+------------------------------------
+Warp / Summon / Reconnect / Unstick
+------------------------------------
+:s <acc>  Summon player to you. Lots of checks (bounty/nosummon/quest rooms).
+
+:w <acc>  Warp to player (respects warp privacy + quest protections).
+
+:rp <acc>  Reconnect a player. Staff-gated.
+
+:u <acc|level> [where]  Unstick target (or everyone in level if level).
+------------------------------------
+Movement / Speed / PK / God
+------------------------------------
+:tpk [acc]  Toggle PK (staff invis SP). Shows PK Toggle: on/off.
+
+:tf [acc]  Toggle fast movement. Shows Speed Toggle: on/off.
+
+:wh  Play warp home ani (visual warp-in).
+
+(Hidden) godMode2 exists server-side; client hotkey path is effectively disabled.
+------------------------------------
+Items / Inventory / Currency
+------------------------------------
+:ai(*) <id> <amt>  Add item (spawn). Staff-right checked + ID validation + logs.
+
+:ri(*) <id> <amt|all>  Remove item (or all of that ID). Logs.
+
+:da  Drop ALL items onto ground (except protected ones). Super-admin only.
+
+:sc <acc> <amt>  Give Staff Coin(s) (item 949) with limits. Logs.
+
+:discordaward <acc> <amt>  Give Discord Coin(s) (item 1904), usually max 1. Logs.
+
+:fi <name>  Find item by name (lists IDs).
+
+:ii <id>  Item info (id, name, image, weapon).
+
+:vi <account> View players inventory.
+
+:invmanager(*) Inventory manager for admins, used to spawn.
+------------------------------------
+Cars / Levels / Warps
+------------------------------------
+:car(*) <id> <acc?>  Spawn car at you (rights-gated). Logs.
+
+:tow  Tow clicked car (via mouse).
+
+:cl  Check level (scan file for updates/spawners). Logs.
+
+:sa  Set auction house location (toggles AuctionWarper).
+
+:open / :close <reason>  Open/Close clicked warp; closing kicks non-staff out + sets reason.
+
+:il  Add current level to ignore list (client-side).
+------------------------------------
+Guild / Hats / Animation
+------------------------------------
+:g <guild>  Set guild (supports level mass apply, clr to clear). Rights-gated + logs.
+
+:seth <acc> <hatimg|id>  Set hat on target. Logs.
+
+:ga <gani> <acc|all|level>  Set animation (respects restrictions + logs).
+
+------------------------------------
+Buffs
+------------------------------------
+
+:tbuff <acc>  Temp buff (~30s strength; freeze/ani poke; RC notice if < L4).
+
+:buff <acc>  Full buff (~5 hours): strength/worker/vitality/lightweight + heal.
+
+:tintin [acc]  +1 week Infinite Ammo (adds time to unlimitedAmmo). Logs.
+------------------------------------
+Bank / Trading
+------------------------------------
+:cb <acc>  Check bank balance (L4 only). Logs.
+
+:tradelock <acc>  Toggle trade lock on player; RC + logs.
+------------------------------------
+Favorites / Warps
+------------------------------------
+:wt <#>  Warp to stored location (slot 115).
+
+:st <#> <label>  Store location (currently disabled in code via early break).
+
+:hs  Intended Hide Favorites, but sends a server op without a handler (no-op). Use GUI auto-hide instead.
+
+:sf Pulls up the list of your 10 favorite levels.
+------------------------------------
+NPC Utilities (mouse-based)
+------------------------------------
+:np <class>  Place NPC of class at mouse (spawns a putClass).
+
+:bl  Place level blocker at mouse (removable with :de by L4).
+
+:nd  NPC data on clicked NPC (classes/img/dir/pos/owners). Client printout.
+
+:ns <dbnpc>  Summon DB-NPC to you.
+
+:nw <dbnpc>  Warp to DB-NPC.
+------------------------------------
+Misc
+------------------------------------
+:r  Reconnect to server (serverwarp to current).
+
+:ks  Toggle kill sound (stops midi if active).
+
+:sl <class>  Scan level for NPCs of class (shows closest + details; cleans old item 2015).
+
+:file <pattern>  Find file(s) and list names.
+
+:help  Shows a HelpBox (restricted to a specific account).
+=========================================================
+(*) = requires higher staff (often L4/admin) or a specific right. Exact gating varies per action.
+=========================================================
+
