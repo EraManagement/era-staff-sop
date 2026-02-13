@@ -1,0 +1,371 @@
+Gang Events Hosting SOP
+Important Commands
+General Event Commands
+:eventmsg
+
+
+→ To send out mass event message
+
+:gevents
+
+
+→ To warp to gang events level
+
+:settings
+
+
+→ For GUI
+
+/fixsales
+
+
+→ To fix the R scoreboard if it breaks
+
+MVP & Gang Award Commands
+Preparation (Required Before Awarding)
+/gat
+
+
+→ Add the gang award tool to the account before any of the following
+
+MVP Winner Command
+:mvpwinner account 1
+
+Individual Gang Coin
+:gcwinner Account 1
+
+Award Entire Gang
+:awardgang “gang name” #
+
+
+→ Need ETA rights
+→ Awards Gang Coins
+
+Force Gang Tags
+:gangtags
+
+:tb
+
+
+→ For Ballas
+
+:tbl
+
+
+→ For Temnaya
+
+Hosting Gang Events
+Event 1 — Simulation Raid (Sim Raid)
+Location & Maps
+
+Head to:
+
+era_ow-inside-eventhouse-gangevents.nw
+
+
+Go into:
+
+Simulation Raid Event
+era_simulation-raid_00-00.nw
+
+
+New Map:
+
+era_ow-gangevent-simraid-midnight_01-01.nw
+
+Hosting Steps
+
+Type:
+
+:reset points
+
+
+→ Reset scoreboard
+
+Type:
+
+/host
+
+
+→ Search for Simulation Raid and send it.
+
+Leaderboard Monitoring & Rewards
+Keep an eye out on '3' for leaderboard.
+
+Award as Following:
+Sim Raid
+
+Top 3 players - 1 mvp coin 
+
+1st place  - 4 gang coins
+2nd place  - 3 gang coins
+3rd place  - 2 gang coin
+4th place  - 1 gang coin
+
+During :gevents Events
+:cleargame
+
+Event 2 — King of the Hill (KoTH)
+Setup Steps
+
+While in ET tag, type:
+
+:gevents
+
+
+Type in:
+
+:ep
+:bb
+:bh
+:lc
+:ch
+
+
+→ Whichever ones made it to the top 4
+
+Type:
+
+:settings
+
+
+→ Choose KoTH - Main
+
+Once each gang has been situated by player count:
+
+:start
+
+Leaderboard & Rewards
+Keep an eye out for the leaderboards.
+
+Award as Following:
+1st place - 1 mvp to each player
+2nd place - 2 gang coins
+3rd place - 1 gang coins 
+
+(if doing 4 gangs, award 2nd place 3, 3rd place 2, and 4th place 1)
+
+Event 3 — 1v1 Gang Events
+
+You can choose between:
+
+TDM
+
+CTF
+
+Kill Confirmed
+
+Payload
+
+TTS
+
+Team Spar
+
+Poll in Discord if desired.
+
+Setup Instructions
+
+These are 1v1 Gang events, so select the two who will face each other.
+
+Kick the rest if needed.
+
+Example for CTF
+
+Type:
+
+:settings
+
+
+Select:
+
+CTF - Whiteout
+
+
+New map as of 10/13/24:
+
+Blitz
+
+
+Much more streamlined
+
+Better respawning mechanics
+
+Host this one when possible
+
+Type:
+
+:start
+
+
+→ When ready
+
+Important Notes
+
+Winners will remain after finish.
+
+Do not award until the winner has been selected.
+
+Payload Rounds Explanation
+
+Payload rounds work on a:
+
+“Which gang can get the payload further” type system.
+
+
+Suggestions:
+
+5 minute rounds to keep things moving
+
+Give each gang a chance at attacker and defender
+
+Whichever gets further takes the round
+
+Example 3 Gang Bracket for 1v1 Events
+
+(Bracket example remains as originally intended)
+
+Rewards
+Same reward structure as KoTH
+
+Final Event — Gang Wars
+
+Unless you want to finish with Team Spar, TTS, or another sparring event.
+
+Location
+
+Move to:
+
+era_event-gangwars-lobby.nw
+
+Entry Path
+
+Head to:
+
+era_ow-inside-eventhouse-gangevents.nw
+
+
+Go through the Gang Wars door.
+
+Gathering Participants
+
+Collect all the gangs that have been competing.
+
+The list on the level will identify who is playing.
+
+Previous method observed:
+
+Amber would obtain the gang leader.
+
+Have them PM names of who to use.
+
+Suggested logical method:
+
+Identify member limit first.
+
+Have them PM us the number of members.
+
+Include themselves in this count.
+
+Starting Gang Wars
+
+Type:
+
+:start
+
+
+Begin adding all the members to each gang.
+
+Important Commands During Gang Wars
+:add         → Add member
+:remove      → Remove member
+:get         → Participant list as PM
+:reset       → Reset everything
+:next        → Next gangs
+:display     → Updates display
+:in          → Warp in fighter
+:winner      → Add to winner list
+:delwinner   → Remove from winner list
+:nextround   → When every member is winner
+:addall      → Add every ontag member
+:sa          → Summon all participants
+:gangtags    → Set gangtags on everyone in the level
+
+Running the Rounds
+
+Once all gang members have been added:
+
+:timer
+
+
+→ Begin selection process
+
+Warp both members:
+
+:in
+
+
+The winner will be PM'd to you via NPCServer.
+
+Can copy+paste winner command.
+
+Keep doing steps 5–7 until the round is complete.
+
+If odd:
+
+:winner
+
+
+the individual remaining
+
+Type:
+
+:nextround
+
+
+→ Move winners back to the beginning
+
+Repeat steps 5–10 until:
+
+Last gang standing
+
+Or last winner standing
+
+Special Case
+
+If multiple of the same gang members are still standing:
+
+Run them through the spar.
+
+Rewards for Gang Wars
+1st place - 2 mvp coins to each player 
+            + 1 mvp for overall mvp sparrer
+
+2nd place - 2 gang coins
+3rd place - 1 gang coin
+
+(if doing 4 gangs, award 2nd place 3, 3rd place 2, and 4th place 1)
+
+Final Step
+
+Award the final winner.
+
+Gang Events Complete
+After Event Cleanup
+
+Reset weekly count in RC:
+
+/npcresetpoints
+
+
+(Currently not authorized)
+
+Run:
+
+:farena 3600
+
+
+→ 60 minute runtime
+
+Invoke Double points as well.
+
+Needs to be manually turned off.
