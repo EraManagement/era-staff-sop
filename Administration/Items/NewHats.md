@@ -1,7 +1,3 @@
-![Hat Guide Step 1](../../assets/HatGuide/HatGuide1.png)
-
-
-
 Important Rules:
 Players should be submitting both a hat and the icon for approval. 
 Players should also not be submitting images without first having a hat token available. 
@@ -28,3 +24,10 @@ Exercise caution in uploading certain gif hats as they may crash the server
 
 Troubleshooting tips:
 To make sure the images are working you can also place down a block and type :i <image name> to see if it's successfully uploaded in the game 
+
+![Hat Guide Step 1](../../assets/HatGuide/HatGuide1.png)
+![Hat Guide Step 1](../../assets/HatGuide/HatGuide2.png)
+![Hat Guide Step 1](../../assets/HatGuide/HatGuide3.png)
+![Hat Guide Step 1](../../assets/HatGuide/HatGuide4.png)
+![Hat Guide Step 1](../../assets/HatGuide/HatGuide5.png)
+![Hat Guide Step 1](../../assets/HatGuide/HatGuide6.png)
