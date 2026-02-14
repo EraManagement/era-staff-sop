@@ -1,3 +1,4 @@
+
 Important Rules:
 Players should be submitting both a hat and the icon for approval. 
 Players should also not be submitting images without first having a hat token available. 
