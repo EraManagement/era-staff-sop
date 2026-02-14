@@ -1,4 +1,5 @@
-Role
+ROLE
+
 Access to all things gang related: shops, levels in bases, levels in pk maps, gang event levels, some databases, weapon, and class scripts.
 -EventSystem for example (huge class involving all scripts for events logic), there is a command w/ awarding players with individual gang currency (:gcwinner), that needs updating every season to get right token (:awardguild “gang name”# is for the whole gang)
 -Gangs/Weekly Awards, updated to award coins for proper season on weekly reset
