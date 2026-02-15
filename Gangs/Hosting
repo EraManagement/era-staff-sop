@@ -1,92 +1,75 @@
-Gang Events Hosting SOP
+**Gang Events Hosting SOP**
+
 Important Commands
 General Event Commands
-:eventmsg
-
-
+**:eventmsg**
 → To send out mass event message
 
-:gevents
-
-
+**:gevents**
 → To warp to gang events level
 
-:settings
-
-
+**:settings**
 → For GUI
 
-/fixsales
-
-
+**/fixsales**
 → To fix the R scoreboard if it breaks
 
-MVP & Gang Award Commands
+---
+
+**MVP & Gang Award Commands**
 Preparation (Required Before Awarding)
-/gat
-
-
+**/gat**
 → Add the gang award tool to the account before any of the following
 
-MVP Winner Command
-:mvpwinner account 1
+**MVP Winner Command**
+**:mvpwinner account 1**
 
-Individual Gang Coin
-:gcwinner Account 1
+**Individual Gang Coin**
+**:gcwinner Account 1**
 
 Award Entire Gang
 :awardgang “gang name” #
-
-
 → Need ETA rights
 → Awards Gang Coins
 
-Force Gang Tags
-:gangtags
+**Force Gang Tags**
+**:gangtags
 
-:tb
+*→ For Temnaya*
+**:tb
 
+*→ For Ballas*
+**:tbl**
 
-→ For Ballas
+---
 
-:tbl
-
-
-→ For Temnaya
-
-Hosting Gang Events
+**Hosting Gang Events**
 Event 1 — Simulation Raid (Sim Raid)
 Location & Maps
 
 Head to:
 
-era_ow-inside-eventhouse-gangevents.nw
+**era_ow-inside-eventhouse-gangevents.nw**
 
 
-Go into:
-
+**Go into:**
 Simulation Raid Event
 era_simulation-raid_00-00.nw
 
 
-New Map:
-
+**New Map:**
 era_ow-gangevent-simraid-midnight_01-01.nw
 
-Hosting Steps
+---
 
-Type:
+**Hosting Steps**
 
+**Type:**
 :reset points
-
-
 → Reset scoreboard
 
-Type:
-
+**Type:**
 /host
-
-
 → Search for Simulation Raid and send it.
 
 Leaderboard Monitoring & Rewards
@@ -97,19 +80,18 @@ Sim Raid
 
 Top 3 players - 1 mvp coin 
 
-1st place  - 4 gang coins
-2nd place  - 3 gang coins
-3rd place  - 2 gang coin
-4th place  - 1 gang coin
+**1st place**  - 4 gang coins
+**2nd place**  - 3 gang coins
+**3rd place**  - 2 gang coin
+**4th place**  - 1 gang coin
 
-During :gevents Events
-:cleargame
+**During :gevents Events
+:cleargame**
 
 Event 2 — King of the Hill (KoTH)
 Setup Steps
 
-While in ET tag, type:
-
+**While in ET tag, type:**
 :gevents
 
 
@@ -120,25 +102,21 @@ Type in:
 :bh
 :lc
 :ch
-
-
 → Whichever ones made it to the top 4
 
 Type:
-
 :settings
-
-
 → Choose KoTH - Main
 
 Once each gang has been situated by player count:
+**:start**
 
-:start
+---
 
-Leaderboard & Rewards
+**Leaderboard & Rewards**
 Keep an eye out for the leaderboards.
 
-Award as Following:
+**Award as Following:**
 1st place - 1 mvp to each player
 2nd place - 2 gang coins
 3rd place - 1 gang coins 
@@ -147,84 +125,59 @@ Award as Following:
 
 Event 3 — 1v1 Gang Events
 
-You can choose between:
+**You can choose between:**
 
-TDM
-
-CTF
-
-Kill Confirmed
-
-Payload
-
-TTS
-
-Team Spar
-
+-TDM
+-CTF
+-Kill Confirmed
+-Payload
+-TTS
+-Team Spar
 Poll in Discord if desired.
 
-Setup Instructions
-
+**Setup Instructions**
 These are 1v1 Gang events, so select the two who will face each other.
-
 Kick the rest if needed.
 
-Example for CTF
+**Example for CTF**
 
 Type:
-
 :settings
 
-
 Select:
-
 CTF - Whiteout
-
-
 New map as of 10/13/24:
+**Blitz**
+-Much more streamlined
+-Better respawning mechanics
+**Host this one when possible**
 
-Blitz
-
-
-Much more streamlined
-
-Better respawning mechanics
-
-Host this one when possible
-
-Type:
+**Type:**
 
 :start
-
-
 → When ready
 
-Important Notes
+**Important Notes**
 
 Winners will remain after finish.
-
 Do not award until the winner has been selected.
 
-Payload Rounds Explanation
+---
 
+**Payload Rounds Explanation**
 Payload rounds work on a:
 
 “Which gang can get the payload further” type system.
-
-
 Suggestions:
 
-5 minute rounds to keep things moving
+-5 minute rounds to keep things moving
+-Give each gang a chance at attacker and defender
+-Whichever gets further takes the round
 
-Give each gang a chance at attacker and defender
-
-Whichever gets further takes the round
-
-Example 3 Gang Bracket for 1v1 Events
-
+**Example 3 Gang Bracket for 1v1 Events**
 (Bracket example remains as originally intended)
 
-Rewards
+**Rewards**
 Same reward structure as KoTH
 
 Final Event — Gang Wars
