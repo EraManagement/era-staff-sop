@@ -1,9 +1,11 @@
-ROLE
+**ROLE**
 
 Access to all things gang related: shops, levels in bases, levels in pk maps, gang event levels, some databases, weapon, and class scripts.
--EventSystem for example (huge class involving all scripts for events logic), there is a command w/ awarding players with individual gang currency (:gcwinner), that needs updating every season to get right token (:awardguild “gang name”# is for the whole gang)
--Gangs/Weekly Awards, updated to award coins for proper season on weekly reset
--Staff/AwardGang, updating id to give proper season reward
+**-EventSystem** for example (huge class involving all scripts for events logic), there is a command w/ awarding players with individual gang currency (:gcwinner), that needs updating every season to get right token (**:awardguild “gang name”#** is for the whole gang)
+**-Gangs/Weekly Awards**, updated to award coins for proper season on weekly reset
+**-Staff/AwardGang**, updating id to give proper season reward
+
+---
 
 In a level only 1 person at a time can view a script and edit it, on RC multiple ppl can but just remember coordinate w/ others working on it as “apply” saves YOUR current changes and overridfes other persons
 
@@ -11,31 +13,35 @@ dragon is databases - logic for big systems
 sword is weapon - all weapons and events
 papers is classes - function behind basic things
 
-/npc gangs help in Remote Control to get the list of commands (use this to delete, add, rename gangs AND MORE)
+**/npc gangs help** in Remote Control to get the list of commands (use this to delete, add, rename gangs AND MORE)
 
+---
 
-
-To get item info (icon files, for example), use /npc iteminfo *item id) in RC
+To get item info (icon files, for example), use **/npc iteminfo itemID**) in RC
 
 Staff blocks
-Say :so and grab to make staff only
-:block when grabbing block to create a kicker
-:i <image name> to make image
+Say **:so** and grab to make staff only
+**:block** when grabbing block to create a kicker
+**:i <image name>** to make image
 
-Gang Structure
+---
+
+**Gang Structure**
 
 Nickname colors (when on gangtag) are part of a class that deals with all nicknames
 
 
-Gang Rewards
+**Gang Rewards**
 
 Every season will have special crates for 10 coins and a previous season arena crate available for arena coins
 
 For s2 Crime has handled creating the new gang guns and initial pricing
 
+---
 
-NE
-Need specific :ne rights for specific levels to be able to edit
+
+**NPC Editor**
+Need specific **:ne** rights for specific levels to be able to edit
 :ne is for editing npcs, some scripts are on the NPC or much larger in RC databases that make the script work like shops. 
 In ne most scripts are editable on the NPC so be careful with quantities (check prices and quantity per purchase)
 The left side of the ne menu is a whole bunch of scripts at boilerplate, if not there will need to look for it in other levels (but most likely theyre there)
@@ -43,43 +49,43 @@ Right click in a level in :ne to make an npc (top option is an npc to put a scri
 Can paste script in from the :ne menu
 To replace item ids, use :fi “item” to get the ID
 
-
-
+---
 
 For double gang exp:
-P menu > Admin > Force double xp (check on)
+**P menu > Admin > Force double xp (check on)**
+*Automated broken, supposedly*
 
+---
 
-Automated broken, supposedly
+**Arena**
 
-
-Arena
-
-Bases are tied to a class (Database NPC = Control_GangArena) that is tied to arena logic
+Bases are tied to a class (**Database NPC = Control_GangArena**) that is tied to arena logic
 Database NPCs are “The dragon head”, WeaponNPCs are the “sword”, and Class SCripts is the stack of papers (icons on RC)
 Lines 514 and 1176 (as of 9/2/24) for adding new arenas
 
 
 Arena logic is tied to everything
 In arena script it defines what gets awarded, how much gets awarded, and what determines that you will get a reward
-To check how many coins people have (or in general, how many items), on RC: !scanaccs <itemID>. Then say “list”. Use :fi for fining item id
-:getallarenas in RC to get a list of active arenas
-Use :changearena “name” to change the active arena
+To check how many coins people have (or in general, how many items), on RC: **!scanaccs <itemID>**. Then say “list”. Use :fi for fining item id
+**:getallarenas** in RC to get a list of active arenas
+Use **:changearena “name”** to change the active arena
 
+---
 
-Gang Shop
+**Gang Shop**
 
 Stocking, you type +# or -# and right click the shop to add remove
 
 
-Gang Seasons
+**Gang Seasons**
 
-When a new season starts, best practice is to reset all player gang points. (/npc resetpoints)
+When a new season starts, best practice is to reset all player gang points. (**/npc resetpoints**)
 
 
-Gang events
-After gang events, host an arena (30-60 min), to reset weekly points it’s a simple rc command (/reset topweekly, to be confirmed)
+**Gang events**
+After gang events, host an arena (30-60 min), to reset weekly points it’s a simple rc command (**/reset topweekly**, to be confirmed)
 
+---
 
 Embassy warpto era_ow-inside-gangembassy-main.nw
 
