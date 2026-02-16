@@ -5,7 +5,7 @@ the server will protect itself by deleting any items dropped on the floor in the
 
 **The Remote Control will alert you and it should look like this:**
 
-[01:42 PM]RC:Script: Function setShape not found at line 20 of block in script of n
+-[01:42 PM]RC:Script: Function setShape not found at line 20 of block in script of n
 [01:42 PM]RC:Script: Function blockAgain not found at line 21 of block in script of n
 [01:42 PM]RC:Script: Function onwall2 not found at line 42 of bounds in script of n
 [01:42 PM]RC:Script: Function setShape not found at line 20 of block in script of n
