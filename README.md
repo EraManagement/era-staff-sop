@@ -10,3 +10,6 @@ Long-term operational documentation for Graalonline Era Legacy staff roles, tool
 - [gPhone ATM Banking](Phone/ATM.md)
 - [gPhone Staff Controls](Phone/StaffControls.md)
 - [Bank Balance Review and Adjustment](Administration/Tasks/BankBalanceReview.md)
+- [Item Recovery and Missing Item Claims](Administration/Tasks/ItemRecovery.md)
+- [Trade Lock and Scam Handling](Administration/Tasks/TradeLockScamHandling.md)
+- [Account Reset Checklist](Administration/Tasks/AccountResetChecklist.md)
